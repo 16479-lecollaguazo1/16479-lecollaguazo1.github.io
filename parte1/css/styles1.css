@@ -1,0 +1,35 @@
+/* Estilo para centrar el texto */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* El contenedor para el texto centrado */
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.navbar-text {
+    font-size: 1rem;
+    color: #e00c0c; /* Cambia este color según tus necesidades */
+}
+
+/* Asegúrate de que los elementos de la barra de navegación se alineen adecuadamente */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand, .navbar-nav {
+    z-index: 2; /* Asegúrate de que el texto central no se solape */
+}
+
+/* Esto es para asegurarse de que los elementos de la derecha no se desplacen */
+.ml-auto {
+    margin-left: auto !important;
+}

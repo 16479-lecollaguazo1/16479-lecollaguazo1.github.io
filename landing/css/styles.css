@@ -1,0 +1,50 @@
+body,html{
+    height: 100%;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    /*Fondo*/
+    background: url('../img/fondo.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: courier;
+}
+
+.logo{
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    margin-left: -130px;
+}
+
+.piloto{
+    height: 330px;
+    margin-top: -20px;
+}
+
+.text-description{
+    /*Tipo de letra*/
+    letter-spacing: 3px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-control{
+    background: transparent !important;
+    color: #fff !important;
+}
+
+a .fab{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+a .fas{
+    color: #ff0000;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
